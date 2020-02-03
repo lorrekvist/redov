@@ -1,0 +1,49 @@
+This project will follow TDD. I will perform testing as I go along and make sure things stay tight and functional.
+I will be including unit testing of the wage bumping method, as it makes sense since the method is simple addition.
+I will be including Smoke testing through the creation and developement of the registration method, as I will be adding onto it as I go.
+Regression testing will be used on the registration method aswell, however specifically towards the password check method that I will add.
+Monkey testing will be used in the wage pushing method aswell, since it is easily accessible and spammable.
+
+Made super basic login system.
+Refactored code to allow same login method to work for both admin and regular users.
+
+Tested login with incorrect information. Works as intended.
+
+Unit testing the wage-pushing method.
+This led me to realize an error in my array initializations. I was pushing on the same index for both users. This is rectified
+and the test now performs correctly.
+
+I removed all the indexes in the array initializations which fixed the issues.
+
+Created register method that adds to the arraylist of reg-users.
+Tested to create and login, works as intended.
+
+Reworked login to use way less code, combining checks.
+
+Smoke tested the create new user through the admin class. It did not work.
+I refactored the registration method to block same usernames as well as initiating their wages and bank accounts.
+It now works.
+
+Adding in the password requirements and will then perform regression testing.
+I was not able to create an account without numbers.
+With numbers it worked.
+
+Monkey testing, Spam pushing the wages to see what happens. Works as intended.
+
+Finally system tested, adding new users, deleting them, making raise requests and approving and denying them. Seems to work.
+
+Looking back on the project there are many, many places where more refactoring would be in order. If I had more time, or had used my time more wisely this application would
+be much easier on the eyes and mind. However I did still refactor quite a bit. In the start I was just hard-coding things into static methods in main to get going
+asap, however I soon switched over and moved specific methods out of the main file, I added admin specific methods to admin class file.
+
+I wish I would've used my time more wisely to create a better menu-system as it currently stands it looks horrendous. It does the job though, I suppose.
+Another thing that makes me regret my time-useage is the amount of bugs that I am aware of that I had to simply try and work around or just skip fixing.
+
+The tests were quite helpful, I do feel like I could have achieved the same, or even better results through more common-sense testing,
+however I do believe that is simply due
+to how new I am to testing, and I can definatily see the pros (and cons) of doing it this way.
+All in all I have to say that, in my opinion it does seem to have quite a steep learning curve, but perhaps thats just me.
+I am looking forward to learning more about this in my future career.
+
+I feel like the tests went well! They initially did not work, as you can see in the documentation but I have been led to believe thats exactly what you want!
+After refactoring and tinkering all tests went through well enough.
